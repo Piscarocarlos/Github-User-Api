@@ -12,12 +12,19 @@
 <body>
     <section>
         <div class="container">
-            <form class="d-flex mt-5" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search github user" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </form>
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <form class="d-flex mt-5" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search github user" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </form>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 offset-md-4" id="results"></div>
+            </div>
           </div>
     </section>
     <script src="app.js"></script>
